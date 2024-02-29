@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.headerbar{
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    padding: 10px;
+}
+h3{
+    font-size: 40px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+li,ul{
+   
+    font-size: 25px;
+    color: grey;
+    display: inline;
+    
+}
+li:hover{
+    color: aliceblue;
+    cursor:pointer;
+}
+ul{
+    margin-left: 60%;
+   margin-top: 15px;
+
+}
+.search{
+    height: 10px;
+    text-align: center;
+    padding: 30px;
+   
+  
+}
+input{
+    width: 70%;
+    padding: 7px;
+    
+}
+.image{
+    padding: 7px;
+    display: flex;
+   justify-content: center;
+   padding: 20px;
+   font-size: 19px;
+   color: rgba(0, 0, 0, 0.648);
+   
+}
+
+h5:hover{
+    color:white     ;
+    cursor: pointer;
+    background-color: black;
+}
+.items1{
+    padding: 5px;
+   
+    border-style: solid;
+    border-color: black;
+   border-width: 7px;
+   width: 35%;
+   border-style:double;
+   margin: 10px;
+    
+}
+.items2{
+    padding: 5px;
+    border-style:double;
+    border-color: black;
+   border-width: 7px;
+   width: 35%;
+   margin: 10px;
+   
+}
+.items3{
+ 
+    padding: 5px;
+    margin: 10px;
+    border-style:double;
+    border-color: black;
+   border-width: 7px;
+   width: 35%;
+  
+}
+.three{
+    justify-content: center;
+    padding: 5px;
+    display:flex;
+    justify-content: center;
+}
+
+h3{
+ 
+    padding: 5px;
+    font-size: 36px;
+}
+.contact 
+{
+    background-color: black;
+    color: aliceblue;
+    display: block;
+    padding: 10px;
+    left: 0;
+    right: 0;
+}
